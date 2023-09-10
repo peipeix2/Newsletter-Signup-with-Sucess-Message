@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+p, span, form, button {
+  font-family: 'Roboto', sans-serif;
+  color: #242742;
+}
+
+/* Main Container */
+
+.container {
+  width: 375px;
+  height: 860px;
+  margin: 0 auto;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.content-inner-container {
+  margin: 3em 1.5em;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.subheading, .promo-content {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.promo-list {
+  margin-top: 24px;
+}
+
+.list-item {
+  display: flex;
+  
+}
+
+.promo-icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.label-error {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+form label, .error-msg {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+input {
+  height: 56px;
+  padding-left: 20px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(25, 24, 23, 0.25);
+  border-radius: 8px;
+
+  color: rgba(36, 39, 66, 0.5);
+}
+
+.subscribe-btn {
+  height: 56px;
+  background-color: #242742;
+  border: none;
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+}
+
+.error-msg {
+  display: none;
+  color: #FF6155;
+}
+
+/* Success Message  */
+.success-msg-container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 860px;
+  padding: 3em 1.5em;
+  margin: 0 auto;
+  
+  display: none;
+}
+
+.success-msg-content {
+  margin-top: 150px;
+}
+
+.success-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.thanks-msg {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.thanks-content {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.dismiss-container {
+  margin-top: auto;
+}
+
+.dismiss {
+  width: 100%;
+  height: 56px;
+  background-color: #242742;
+  border: none;
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+}
+
+
