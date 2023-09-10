@@ -103,8 +103,6 @@ input {
   height: 860px;
   padding: 3em 1.5em;
   margin: 0 auto;
-
-  display: none;
 }
 
 .success-msg-content {
