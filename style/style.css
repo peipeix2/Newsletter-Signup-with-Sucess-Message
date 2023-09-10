@@ -98,7 +98,7 @@ input:hover {
 .subscribe-btn:hover {
   cursor: pointer;
   background: linear-gradient(rgba(255,106,58),rgba(255,82,123));
-  box-shadow: 0px 5px 10px rgba(255, 106, 58, 0.5)
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .error-msg {
@@ -155,6 +155,12 @@ input:hover {
   color: white;
 }
 
+.dismiss:hover {
+  cursor: pointer;
+  background: linear-gradient(rgba(255, 106, 58), rgba(255, 82, 123));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /* Media Query */
 @media screen and (min-width: 1024px) {
   body {
@@ -197,7 +203,7 @@ input:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
   width: 504px;
   height: 520px;
   padding: 2.8em;
