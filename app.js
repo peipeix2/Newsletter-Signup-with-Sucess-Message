@@ -1,8 +1,6 @@
 const subscribeBtn = document.querySelector('.subscribe-btn')
 const input = document.querySelector('input')
-const form = document.getElementById('form')
 const errorMsg = document.querySelector('.error-msg')
-const body = document.querySelector('body')
 const container = document.querySelector('.container')
 
 let successHTML = `
@@ -30,7 +28,7 @@ function checkInvalidStyle() {
 
 function displaySuccessMsg() {
   container.style.display = 'none'
-  body.insertAdjacentHTML('afterbegin', successHTML)
+  container.insertAdjacentHTML('afterend', successHTML)
 }
 
 function errorStyleDisplay(state) {
