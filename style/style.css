@@ -33,7 +33,7 @@ p, span, form, button {
 
 .subheading, .promo-content {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .promo-list {
@@ -155,4 +155,67 @@ input:hover {
   color: white;
 }
 
+/* Media Query */
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #36384A;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 928px;
+    height: 641px;
+    padding: 1.5em;
+
+    border-radius: 36px;
+    background-color: white;
+  }
+
+  .img-container {
+    width:fit-content;
+  }
+
+  .content-inner-container {
+    padding: 20px;
+  }
+
+  .heading {
+    margin-top: 0px;
+    font-size: 56px;
+  }
+}
+
+.success-msg-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 504px;
+  height: 520px;
+  padding: 2.8em;
+
+  background-color: white;
+  border-radius: 36px;
+}
+
+.success-msg-content {
+  margin: 0px;
+}
+
+.thanks-msg {
+  margin-top: 40px;
+  font-size: 56px;
+}
+
+.thanks-content {
+  margin: 24px 0 40px;
+}
 
